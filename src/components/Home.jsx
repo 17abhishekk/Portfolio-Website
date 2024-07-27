@@ -15,7 +15,7 @@ const Home = () => {
             Welcome to My Portfolio
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I'm passionate about building dynamic websites using React, Tailwind CSS, Firebase and Node js.
+            I'm passionate about building dynamic websites using React, Tailwind CSS, Firebase, and Node.js.
             Always exploring new technologies and striving to create innovative solutions.
           </p>
 
@@ -34,8 +34,8 @@ const Home = () => {
           </div>
         </div>
               
-        <div>
-            <img src={HeroImage} alt="mypic" className="rounded-2xl mx-auto w-2/3 md:w-full"/>
+        <div className="self-end md:self-center w-full md:w-auto">
+          <img src={HeroImage} alt="mypic" className="rounded-2xl mx-auto w-2/3 md:w-full" />
         </div>
       </div>
     </div>

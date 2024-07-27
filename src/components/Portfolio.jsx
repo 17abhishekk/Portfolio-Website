@@ -1,13 +1,25 @@
 import React from "react";
 import portfol from '../assets/portfolio/portfolio.png';
+import bbudy from '../assets/BudgetBuddy.png';
+
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: portfol,
-      link:"www.google.com",
+      code: "https://github.com/17abhishekk/Portfolio-Website",
+      demo: "https://17abhishekk.netlify.app",
+      title: "Portfolio Website"
     },
+    {
+      id: 2,
+      src: bbudy,
+      code: "https://github.com/17abhishekk/BudgetBuddy",
+      demo: "",
+      title: "Budget Buddy"
+    }
   ];
+
   return (
     <div
       name="portfolio"
@@ -22,18 +34,25 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src ,link}) => (
+          {portfolios.map(({ id, src, code, demo, title }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
+              <h3 className="text-xl font-bold text-center my-2">{title}</h3>
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" >
+                <button
+                  onClick={() => window.open(demo, '_blank')}
+                  className="w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105"
+                >
                   Demo
                 </button>
-                <button  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" >
+                <button
+                  onClick={() => window.open(code, '_blank')}
+                  className="w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105"
+                >
                   Code
                 </button>
               </div>
