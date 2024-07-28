@@ -1,7 +1,7 @@
 import React from "react";
 import portfol from '../assets/portfolio/portfolio.png';
 import bbudy from '../assets/BudgetBuddy.png';
-
+import trv from '../assets/portfolio/Traveller.png';
 const Portfolio = () => {
   const portfolios = [
     {
@@ -15,8 +15,15 @@ const Portfolio = () => {
       id: 2,
       src: bbudy,
       code: "https://github.com/17abhishekk/BudgetBuddy",
-      demo: "",
+      demo: "https://17abhishekk-budgetbuddy.netlify.app",
       title: "Budget Buddy"
+    },
+    {
+      id: 3,
+      src: trv,
+      code: "https://github.com/17abhishekk/Traveller",
+      demo:"",
+      title: "Traveller"
     }
   ];
 
