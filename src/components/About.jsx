@@ -13,22 +13,30 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        I am Abhishek Kumar Singh, a B.Tech student in Computer Science and Engineering 
-        at the United College of Engineering and Research, Prayagraj. I excel in programming 
-        languages like Java, C, JavaScript, and Python, and have a strong foundation in data structures 
-        and algorithms. My academic achievements include a high GPA and top rankings in competitive 
-        programming contests like TCS CodeVita.
+        I am Abhishek Kumar Singh, a B.Tech student in Computer Science and Engineering at the United College of Engineering and Research,
+         Prayagraj. I excel in programming languages like Java, C, JavaScript, and Python, and have a strong foundation in data
+          structures and algorithms. My academic achievements include a solid GPA and top rankings in competitive programming contests
+           like TCS CodeVita.
         </p>
 
         <br />
 
         <p className="text-xl">
-        My expertise extends to full stack development, demonstrated through projects like my 
-        personal portfolio website, built with HTML, CSS, JavaScript, and React.js, and a real-time 
-        chat application using the MERN stack. I have a keen interest in integrating front-end and 
-        back-end technologies to create seamless user experiences. Additionally, I am passionate about
-         exploring the potential of machine learning to solve real-world problems and innovate further 
-         in the tech industry.
+        From developing finance-tracking applications to creating weather forecasting tools, 
+        each project has honed my skills and expanded my horizons. 
+        Currently, I'm working on a predictive model to identify IPC sections based on incident descriptions,
+         showcasing my dedication to both front-end development and data science.
+
+
+        </p>
+
+        <br />
+
+        <p className="text-xl">
+        My passion for technology drives me to continuously learn and innovate. I am eager to take on new challenges,
+         collaborate with like-minded professionals, and contribute to impactful projects. Whether it's building dynamic
+          web applications or diving deep into machine learning and data analysis, I am committed to leveraging my skills
+           to create meaningful solutions.
         </p>
       </div>
     </div>
